@@ -1,14 +1,15 @@
-﻿/* Change this file to get your personal Portfolio */
-
-// Summary And Greeting Section
-
+﻿import harvard from './assets/images/harvardLogo.png';
 import emoji from 'react-easy-emoji';
-import harvard from './assets/images/harvardLogo.png';
 import stanford from './assets/images/stanfordLogo.png';
 import facebook from './assets/images/facebookLogo.png';
-import { fab, faHtml5, faSass, faCloudflare, faCss3, faJs, faReact, faNodeJs, faSwift, faNpm, faDocker, faAws, faPython } from '@fortawesome/free-brands-svg-icons';
-
-
+import { faHtml5, faSass, faCloudflare, faCss3, faJs, faReact, faNodeJs, faSwift, faNpm, faDocker, faAws, faPython } from '@fortawesome/free-brands-svg-icons';
+import googleAssistantLogo from './assets/images/googleAssistantLogo.webp';
+import pwaLogo from './assets/images/pwaLogo.webp';
+import codeInLogo from './assets/images/codeInLogo.webp';
+import quoraLogo from './assets/images/quoraLogo.png';
+import airbnbLogo from './assets/images/airbnbLogo.png';
+import saayaLogo from './assets/images/saayaHealthLogo.webp';
+import nextuLogo from './assets/images/nextuLogo.webp';
 const illustration = {
   animated: true, // set to false to use static SVG
 };
@@ -20,7 +21,7 @@ const greeting = {
     'A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -29,11 +30,11 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/saadpasta',
   linkedin: 'https://www.linkedin.com/in/manoj-c-a9150714b/',
-  gmail: 'saadpasta70@gmail.com',
-  gitlab: 'https://gitlab.com/saadpasta',
-  facebook: 'https://www.facebook.com/saad.pasta7',
-  medium: 'https://medium.com/@saadpasta',
-  stackoverflow: 'https://stackoverflow.com/users/10422806/saad-pasta',
+  gmail: 'chaulagainmanoj45@gmail.com',
+  gitlab: 'https://gitlab.com/manojchaulagain',
+  facebook: 'https://www.facebook.com/manoj.chaulagain',
+  medium: 'https://medium.com/@manojchaulagain',
+  stackoverflow: 'https://stackoverflow.com/users/10422806/manoj-chaulagain',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
@@ -119,10 +120,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: 'Harvard University',
+      schoolName: 'Georgia Institue of Technology',
       logo: harvard,
       subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
+      duration: 'Currently Pursuing',
       desc: 'Participated in the research of XXX and published 3 papers.',
       descBullets: [
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
@@ -130,10 +131,10 @@ const educationInfo = {
       ],
     },
     {
-      schoolName: 'Stanford University',
+      schoolName: 'Southern Polytechnic State University',
       logo: stanford,
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
+      subHeader: 'Bachelor of Science in Electrical Engineering',
+      duration: 'Graduated 2013',
       desc:
         'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
       descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
@@ -182,7 +183,7 @@ const workExperiences = {
     {
       role: 'Front-End Developer',
       company: 'Quora',
-      companylogo: require('./assets/images/quoraLogo.png'),
+      companylogo: quoraLogo,
       date: 'May 2017 – May 2018',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -190,7 +191,7 @@ const workExperiences = {
     {
       role: 'Software Engineer Intern',
       company: 'Airbnb',
-      companylogo: require('./assets/images/airbnbLogo.png'),
+      companylogo: airbnbLogo,
       date: 'Jan 2015 – Sep 2015',
       desc:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -203,7 +204,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
+  githubUserName: 'manojchaulagain', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
   display: true, // Set false to hide this section, defaults to true
 };
@@ -215,12 +216,12 @@ const bigProjects = {
   subtitle: 'SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH',
   projects: [
     {
-      image: require('./assets/images/saayaHealthLogo.webp'),
-      link: 'http://saayahealth.com/',
+      image: saayaLogo,
+      link: 'https://reachhealth.com/',
     },
     {
-      image: require('./assets/images/nextuLogo.webp'),
-      link: 'http://nextu.se/',
+      image: nextuLogo,
+      link: 'https://quadientusa.com/',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -239,22 +240,22 @@ const achievementSection = {
       title: 'Google Code-In Finalist',
       subtitle:
         'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
+      image: codeInLogo,
       footerLink: [
         {
           name: 'Certification',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
+            'https://drive.google.com',
         },
         {
           name: 'Award Letter',
           url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
+            'https://drive.google.com',
         },
         {
           name: 'Google Code-in Blog',
           url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
+            'https://opensource.googleblog.com',
         },
       ],
     },
@@ -262,7 +263,7 @@ const achievementSection = {
       title: 'Google Assistant Action',
       subtitle:
         'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+      image: googleAssistantLogo,
       footerLink: [
         {
           name: 'View Google Assistant Action',
@@ -273,14 +274,14 @@ const achievementSection = {
     },
 
     {
-      title: 'PWA Web App Developer',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      title: 'Web App Developer',
+      subtitle: 'Completed Certifcation from Web App Development',
+      image: pwaLogo,
       footerLink: [
         { name: 'Certification', url: '' },
         {
           name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
+          url: 'https://test.firebaseapp.com/',
         },
       ],
     },
@@ -324,9 +325,9 @@ const talkSection = {
   talks: [
     {
       title: 'Build Actions For Google Assistant',
-      subtitle: 'Codelab at GDG DevFest Karachi 2019',
-      slides_url: 'https://bit.ly/saadpasta-slides',
-      event_url: 'https://www.facebook.com/events/2339906106275053/',
+      subtitle: 'Codelab at GDG DevFest',
+      slides_url: 'https://bit.ly/manojchaulagain-slides',
+      event_url: 'https://www.facebook.com',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -340,7 +341,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    'https://test.podcast.com',
+    'https://www.youtube.com/watch?v=IBQS_uSQ-BQ',
   ],
   display: true, // Set false to hide this section, defaults to true
 };
@@ -349,8 +350,8 @@ const contactInfo = {
   title: emoji('Contact Me ☎️'),
   subtitle:
     'Discuss a project or just want to say hi? My Inbox is open for all.',
-  number: '+92-3243454077',
-  emailAddress: 'saadpasta70@gmail.com',
+  number: '2063696125',
+  emailAddress: 'chaulagainmanoj45@gmail.com',
 };
 
 // Twitter Section

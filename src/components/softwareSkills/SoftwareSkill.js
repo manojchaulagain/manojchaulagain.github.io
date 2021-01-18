@@ -12,7 +12,7 @@ export default function SoftwareSkill() {
             return (
               
               <li key={i} className="software-skill-inline" name={skills.skillName}>
-                <FontAwesomeIcon icon={skills.fontAwesomeClassname}/>              
+                <FontAwesomeIcon title={skills.skillName} className="fa-hover-color" icon={skills.fontAwesomeClassname}/>              
                 <p>{skills.skillName}</p>
               </li>
             );

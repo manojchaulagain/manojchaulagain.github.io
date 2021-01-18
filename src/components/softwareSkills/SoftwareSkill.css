@@ -17,6 +17,23 @@
   color: #868e96;
 }
 
+.fa-hover-color{
+  color: #868e96
+}
+
+.fa-hover-color:hover {
+  color: #645beb
+}
+
+.fa-hover-color:hover ~ p{
+  color: #645beb;
+}
+
+.fa-hover-color ~ p{
+  color: #868e96;
+  font-size: 10px;
+}
+
 .software-skill-inline > i:hover {
   color: #645beb;
 }

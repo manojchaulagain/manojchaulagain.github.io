@@ -31,6 +31,7 @@ export default function Podcast() {
                 key={i}
               >
                 <iframe
+                  title="Portfolio Podcast"
                   className="podcast"
                   src={podcastLink}
                   frameBorder="0"
