@@ -1822,6 +1822,21 @@
   dependencies:
     "@types/react" "^16"
 
+"@types/react-headroom@^2.2.1":
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@types/react-headroom/-/react-headroom-2.2.1.tgz#54f2cf222aa4411c9948bc6078658de23269d90f"
+  integrity sha512-BVfra15oucJnSEImUEivP+QXSevdnf2Tf5ED65vO3S1uB8GxAjbxKkLmFPvfKU9EwaFnSdstgFdnhi7SK6atiw==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react@*":
+  version "17.0.0"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.0.tgz#5af3eb7fad2807092f0046a1302b7823e27919b8"
+  integrity sha512-aj/L7RIMsRlWML3YB6KZiXB3fV2t41+5RBGYF8z+tAKU43Px8C3cYUZsDvf1/+Bm4FK21QWBrDutu8ZJ/70qOw==
+  dependencies:
+    "@types/prop-types" "*"
+    csstype "^3.0.2"
+
 "@types/react@^16", "@types/react@^16.9.53":
   version "16.14.2"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.2.tgz#85dcc0947d0645349923c04ccef6018a1ab7538c"
@@ -1836,6 +1851,11 @@
   integrity sha512-auApPaJf3NPfe18hSoJkp8EbZzer2ISk7o8mCC3M9he/a04+gbMF97NkpD2S8riMGvm4BMRI59/SZQSaLTKpsQ==
   dependencies:
     "@types/node" "*"
+
+"@types/reveal@^3.3.33":
+  version "3.3.33"
+  resolved "https://registry.yarnpkg.com/@types/reveal/-/reveal-3.3.33.tgz#e5448f6b4e6734ec3ea4ee85211bb9313a879044"
+  integrity sha512-lKbezA9Oa5LfdSRwFDc/FHEGH4+FjiXh/a/PCSZAmN+KCeQJL/3ClOdAQwOxt3zdHc8XyioT+cNvIOletwRI7A==
 
 "@types/source-list-map@*":
   version "0.1.2"
@@ -9405,7 +9425,7 @@ react-error-overlay@^6.0.8:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"
   integrity sha512-HvPuUQnLp5H7TouGq3kzBeioJmXms1wHy9EGjz2OURWBp4qZO6AfGEcnxts1D/CbwPLRAgTMPCEgYhA3sEM4vw==
 
-react-headroom@^3.0.0:
+react-headroom@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/react-headroom/-/react-headroom-3.1.0.tgz#7b176a5439cf937cc20293a49582b11f363a0498"
   integrity sha512-zgisgzALxNOGqv+xoPSc4mU2mY/C6LK4NfoD2ZQK4qnL/j9Lm+EJ9z3d1PRh2pEcdll1T++q/FAHzrlu7p1E0Q==

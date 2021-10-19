@@ -13,7 +13,7 @@ import {
   achievementSection,
 } from '../../portfolio';
 
-function Header() {
+const Header = () => {
   const { isDark } = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
